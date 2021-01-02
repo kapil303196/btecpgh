@@ -391,6 +391,7 @@ ul.dropdown-menu li a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
+    min-height: 300px;
 
 }
 
@@ -4855,3 +4856,9 @@ h2.typoh2{
 }
 
 /* responsive design */
+/* responsive design */
+
+.margin-2-px
+{
+	margin: 2px;
+}
