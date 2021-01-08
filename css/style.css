@@ -3544,7 +3544,7 @@ h2.typoh2{
 
 		float: left;
 
-		padding: 30px;
+		/* padding: 30px; */
 
 	}
 
@@ -4857,3 +4857,19 @@ h2.typoh2{
 }
 
 /* responsive design */
+
+.slick-prev {
+    left: -10px !important;
+}
+.slick-next {
+    right: -15px !important;
+}
+
+.padding-top-bottom-5 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.margin-top-5 input[type="submit"] {
+	margin-top: 5%;
+}
