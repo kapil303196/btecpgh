@@ -386,7 +386,11 @@ ul.dropdown-menu li a:hover {
 
     background-size: cover;
 
-    min-height: 300px;
+	min-height: 550px;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
 
 }
 
@@ -2074,7 +2078,9 @@ a.facebook:hover {
 
     color: #000;
 
-    margin-bottom: 1em;
+	margin-bottom: 1em;
+	
+	margin-top: 7%;
 
 }
 
@@ -3538,7 +3544,7 @@ h2.typoh2{
 
 		float: left;
 
-		padding: 30px;
+		/* padding: 30px; */
 
 	}
 
@@ -4855,4 +4861,19 @@ h2.typoh2{
 .margin-2-px
 {
 	margin: 2px;
+}
+.slick-prev {
+    left: -10px !important;
+}
+.slick-next {
+    right: -15px !important;
+}
+
+.padding-top-bottom-5 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.margin-top-5 input[type="submit"] {
+	margin-top: 5%;
 }
