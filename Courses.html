@@ -40,6 +40,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <!-- default css files -->
 
+<!-- load css for cubeportfolio -->
+<link rel="stylesheet" type="text/css" href="css/cubeportfolio.css">
+
 	
 
 <!--web font-->
@@ -146,7 +149,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
 										<li><a href="about.html" data-hover="About">About </a> </li>
 		
-										<li class="active"><a href="gallery.html"  data-hover="Gallery">Gallery</a></li>
+										<li class="active"><a href="Courses.html"  data-hover="Gallery">Courses</a></li>
 		
 										<!-- <li class="dropdown">
 		
@@ -174,7 +177,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 		</div>
 
-		<h2>Gallery</h2>
+		<h2>Courses</h2>
 
 	</div>
 
@@ -183,243 +186,180 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 <!-- gallery -->
-
-	<div class="gallery agile" id="gallery">
-
-		<div class="container">
-
-				<h3 class="heading">Gallery</h3>
-
-			<div class="agile_gallery_grids w3-agile">
-
-				<ul class="clearfix demo">
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v1.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>E-progress</h4>
-
-								<p>Coming Soon.</p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v2.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>E-progress</h4>
-
-								<p>Coming Soon</p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v3.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>Programs</h4>
-
-								<p>Coming Soon.</p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v4.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>Programs</h4>
-
-								<p>Coming Soon</p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v5.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>Programs</h4>
-
-								<p>Coming Soon</p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v6.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>Programs</h4>
-
-								<p></p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v7.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>Programs</h4>
-
-								<p>Coming Soon</p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v8.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>Programs</h4>
-
-								<p>Coming Soon</p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v9.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>Programs</h4>
-
-								<p></p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v10.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>Programs</h4>
-
-								<p>Coming Soon.</p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v11.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>Programs</h4>
-
-								<p>Coming Soon</p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-					<li>
-
-						<div class="gallery-grid1">
-
-							<img src="images/v12.jpg" alt=" " class="img-responsive" />
-
-							<div class="p-mask">
-
-									<h4>Programs</h4>
-
-								<p></p>
-
-							</div>
-
-						</div>
-
-					</li>
-
-				</ul>
-
-			
-
+<div class="gallery agile" id="gallery">
+
+	<div class="container">
+		<!-- <h3 class="heading">Gallery</h3> -->
+		<section id="js-filters-juicy-projects" class="cbp-l-filters-button">
+			<div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All
+				<div class="cbp-filter-counter"></div>
 			</div>
-
-		</div>
+			<div data-filter=".Infrastructure" class="cbp-filter-item"> Infrastructure
+				<div class="cbp-filter-counter"></div>
+			</div>
+			<div data-filter=".Events" class="cbp-filter-item"> Events
+				<div class="cbp-filter-counter"></div>
+			</div>
+		</section>
+		<section id="js-grid-juicy-projects" class="cbp">
+			<article class="cbp-item Infrastructure">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v1.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>E-progress</h4>
+								<p>Coming Soon.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="cbp-item Events">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v2.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>E-progress</h4>
+								<p>Coming Soon</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="cbp-item Infrastructure">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v3.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Programs</h4>
+								<p>Coming Soon</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="cbp-item Events">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v4.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Programs</h4>
+								<p>Coming Soon</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="cbp-item Infrastructure">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v5.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Programs</h4>
+								<p>Coming Soon</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="cbp-item Events">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v6.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Programs</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="cbp-item Infrastructure">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v7.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Programs</h4>
+								<p>Coming Soon</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="cbp-item Infrastructure">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v8.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Programs</h4>
+								<p>Coming Soon</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="cbp-item Events">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v9.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Programs</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="cbp-item Infrastructure">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v10.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Programs</h4>
+								<p>Coming Soon</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="cbp-item Events">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v11.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Programs</h4>
+								<p>Coming Soon</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="cbp-item Infrastructure">
+				<div class="cbp-caption margin-2-px">
+					<div class="">
+						<div class="gallery-grid1">
+							<img src="images/v12.jpg" alt=" " class="img-responsive" />
+							<div class="p-mask">
+								<h4>Programs</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
 
 	</div>
 
+</div>
 <!-- //gallery -->
 
 
@@ -612,6 +552,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- Gallery js file -->
 
 	<script src="js/jquery.picEyes.js"></script>
+
+	<!-- load cubeportfolio -->
+	<script type="text/javascript" src="js/jquery.cubeportfolio.js"></script>
+
+	<!-- init cubeportfolio -->
+	<script type="text/javascript" src="js/main.js"></script>
 
 	<script>
 
