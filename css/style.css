@@ -391,7 +391,6 @@ ul.dropdown-menu li a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
-
 }
 
 
@@ -2078,10 +2077,9 @@ a.facebook:hover {
 
     color: #000;
 
-	margin-bottom: 1em;
+    margin-bottom: 1em;
 	
 	margin-top: 7%;
-
 }
 
 .aboutleft p {
@@ -3544,6 +3542,7 @@ h2.typoh2{
 
 		float: left;
 
+		padding: 30px;
 		/* padding: 30px; */
 
 	}
