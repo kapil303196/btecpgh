@@ -4858,6 +4858,10 @@ h2.typoh2{
 
 /* responsive design */
 
+.margin-2-px
+{
+	margin: 2px;
+}
 .slick-prev {
     left: -10px !important;
 }
