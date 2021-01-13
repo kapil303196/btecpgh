@@ -108,25 +108,7 @@
 		}
 	</style>
 
-	<!-- scrolling script -->
-
-	<script type="text/javascript">
-
-		jQuery(document).ready(function ($) {
-
-			$(".scroll").click(function (event) {
-
-				event.preventDefault();
-
-				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-
-			});
-
-		});
-
-	</script>
-
-	<!-- //scrolling script -->
+	
 
 </head>
 
@@ -754,7 +736,7 @@
 						<div class="clearfix"> </div>
 
 					</div>
-				
+
 					<div class="call">
 
 						<div class="col-xs-1 contact-grdl">
@@ -987,6 +969,22 @@
 				infinite: true
 			});
 		});
+		// scrolling script
+
+
+
+		jQuery(document).ready(function ($) {
+
+			$(".scroll").click(function (event) {
+
+				event.preventDefault();
+
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+
+			});
+
+		});
+		//scrolling script
 	</script>
 
 	<!-- //here ends scrolling icon -->
